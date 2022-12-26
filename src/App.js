@@ -1,11 +1,11 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css"
-import TodoForm from "./components/todoform";
+import TodoList from "./components/todolist";
 
 function App() {
   return (
-    <div className="App">
-      <TodoForm/>
+    <div className="todo-app">
+      <TodoList/>
     </div>
   );
 }
